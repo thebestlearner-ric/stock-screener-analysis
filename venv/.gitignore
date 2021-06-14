@@ -1,0 +1,8 @@
+.DS_Store
+.idea/
+/Companies
+/SP500_csv
+/symbol_data
+secrets.py
+strategy.py
+pyvenv.cfg
