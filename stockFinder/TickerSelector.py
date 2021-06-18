@@ -47,7 +47,7 @@ class TickerSelectorGenerator:
         self.dataframe = pd.DataFrame(columns=func)
 
     def create_stockList(self):
-        stocks = pd.read_csv('SP500-stocks.csv')
+        stocks = pd.read_csv('SP500_csv/SP500-stocks.csv')
         # Split list of stocks to ease batch API calls
         self.symbol_groups = list(helpers.chunks(stocks['Ticker'], 100))
         self.symbol_strings = []

@@ -23,6 +23,7 @@ def backTest_testStrategy(amount_to_invest, from_date):
         cerebro.run()
         print('Final Portfolio Value: %.2f' % cerebro.broker.get_value())
         print('============================================')
+        cerebro.plot()
 
 
 def backTest_GoldenCross(amount_to_invest, from_date):
@@ -41,4 +42,5 @@ def backTest_GoldenCross(amount_to_invest, from_date):
         cerebro.run()
         print('Final Portfolio Value: %.2f' % cerebro.broker.get_value())
         print('============================================')
+        cerebro.plot()
 

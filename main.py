@@ -15,7 +15,7 @@ from stockFinder import helpers as sf_helper, TickerSelector
 AMOUNT_TO_INVEST = 10000
 # Create S&P500 CSV
 # Create TickerSelector object using the RobustValue analysis
-MODE = 1
+MODE = 0
 
 
 def run():
